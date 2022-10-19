@@ -5,11 +5,10 @@ import (
 	"context"
 	"fmt"
 	"io/ioutil"
+	pluginapi "k8s.io/kubernetes/pkg/kubelet/apis/deviceplugin/v1beta1"
+	"rdma-device-plugin/ibverbs"
 	"strconv"
 	"strings"
-
-	"github.com/hustcat/k8s-rdma-device-plugin/ibverbs"
-	pluginapi "k8s.io/kubernetes/pkg/kubelet/apis/deviceplugin/v1beta1"
 )
 
 const (

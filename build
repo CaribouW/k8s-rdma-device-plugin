@@ -15,4 +15,4 @@ if [ -n "${fmtRes}" ]; then
 fi
 
 echo "Building plugins"
-go install "$@" ${REPO_PATH}
+go install "$@"
